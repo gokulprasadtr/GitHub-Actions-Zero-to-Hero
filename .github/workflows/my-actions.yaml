@@ -24,4 +24,7 @@ jobs:
         - name: Run tests
           run: python -m pytest addition.py
           working-directory: src
+        - name: list files
+          run: ls -la
+          working-directory: examples
             
